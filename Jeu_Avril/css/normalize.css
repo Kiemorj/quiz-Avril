@@ -1,0 +1,182 @@
+/* Normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Box model */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+
+body {
+  margin: 0;
+}
+
+/* Improve readability */
+
+body {
+  -webkit-font-smoothing: antialias;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Correct font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Add typography defaults */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Add default styles for links */
+
+a {
+  text-decoration: none;
+  color: #06c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add default styles for buttons */
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Add default styles for tables */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+/* Add default styles for images */
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Add default styles for figures */
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+}
+
+/* Add default styles for code blocks */
+
+code {
+  font-family: monospace;
+  font-size: 0.9em;
+  padding: 0.2em 0.5em;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 0;
+}
+
+/* Add default styles for quotes */
+
+blockquote {
+  margin: 0;
+  padding: 0.5em;
+  border-left: 4px solid #ddd;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* Add default styles for lists */
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Add default styles for forms */
+
+form {
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 0.5em;
+}
+
+/* Add default styles for navigation */
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 0.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #06c;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
