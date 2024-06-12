@@ -1,0 +1,167 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun, playful font */
+    background-color: #ffccd5; /* Light pink background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #a80038; /* Dark red for text */
+}
+
+/* Container for all content */
+.container {
+    max-width: 800px; /* Adjust as needed */
+    width: 90%;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Header styles */
+h1, h2 {
+    color: #a80038; /* Dark red */
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #a80038; /* Dark red */
+}
+
+/* Input styles */
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #a80038;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    background-color: #e60073; /* Dark pink */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #c7005f; /* Darker pink for hover effect */
+}
+
+/* Image container styles */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz question styles */
+.quiz-container .question {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #a80038; /* Dark red */
+}
+
+/* Quiz answer styles */
+.quiz-container .answers label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #a80038; /* Dark red */
+}
+
+.quiz-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Feedback styles */
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #a80038; /* Dark red */
+}
+
+/* Results container styles */
+#results {
+    font-size: 24px;
+    color: #a80038; /* Dark red */
+}
+
+/* Endgame container image styles */
+.endgame-container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+.endgame-container img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    margin: 10px;
+}
+
+/* Flex container to center the content */
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Additional page styles */
+p {
+    margin: 10px 0;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .image-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .quiz-container .question {
+        font-size: 20px;
+    }
+
+    .quiz-container .answers label {
+        font-size: 16px;
+    }
+}

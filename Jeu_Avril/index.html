@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Adjusted path to the CSS file -->
+</head>
+<body>
+    <div class="container"> <!-- Added a container -->
+        <div class="intro-container">
+            <h1>Welcome to the Avril quizz!</h1>
+            <h2>Happy 1 month my cutie fraise ♡</h2>
+            <label for="user-name">Enter your name:</label>
+            <input type="text" id="user-name" name="user-name">
+            <button id="start-quiz">Start Quiz</button>
+            <div class="image-container">
+                <img src="img/heart.jpg" alt="Heart" class="intro-image">
+                <img src="img/hellokitty.jpg" alt="Hello Kitty" class="intro-image">
+            </div>
+            <div id="welcome-message"></div>
+        </div>
+        <div class="quiz-container" style="display:none;">
+            <!-- Quiz questions will be inserted here -->
+        </div>
+        
+        <button id="submit" style="display:none;">Submit Answers</button>
+    </div> <!-- Closing container -->
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End of Quiz</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container"> <!-- Added a container -->
+        <div class="endgame-container">
+            <h1>Congratulations!</h1>
+            <h2>Good job I love you!!!</h2>
+            <p id="final-score"></p>
+            <button id="try-again">Try Again</button>
+            <div class="image-container">
+                <img src="img/coeur.gif" alt="Heart">
+                <img src="img/DessinBoth.jpg" alt="Drawing of Both">
+            </div>
+        </div>
+    </div> <!-- Closing container -->
+
+    <script>
+        window.onload = () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const score = urlParams.get('score');
+            document.getElementById('final-score').textContent = `You got ${score} out of 7 correct!`;
+        };
+
+        document.getElementById('try-again').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
